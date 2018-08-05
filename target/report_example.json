@@ -1,0 +1,113 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20490631674,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "as-a-user-of-bbc-website-i-want-to-be-able-to-search-for-eastenders-from-the-search-suggestion-so-that-i-can-view-any-eastenders-episodes;",
+        "after": [
+          {
+            "result": {
+              "duration": 45551,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5636818848,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat com.Zone.Eastenders_SearchPage.Ok(Eastenders_SearchPage.java:38)\r\n\tat com.Zone.step_definition.Eastenders_Search.i_am_on_the_BBC_Website(Eastenders_Search.java:19)\r\n\tat ✽.Given I am on the BBC Website(src/test/resources/Eastenders_Search.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I am on the BBC Website",
+            "match": {
+              "location": "Eastenders_Search.i_am_on_the_BBC_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on the search tab",
+            "match": {
+              "location": "Eastenders_Search.i_click_on_the_search_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I enter the text \"Eastenders\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eastenders",
+                  "offset": 18
+                }
+              ],
+              "location": "Eastenders_Search.iEnterTheTextIntoTheSearchField(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I click on the search icon",
+            "match": {
+              "location": "Eastenders_Search.i_click_on_the_search_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "different episodes of Eastenders should be displayed",
+            "match": {
+              "location": "Eastenders_Search.different_episodes_of_Eastenders_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "As a user of BBC Website I want to be able to search for Eastenders from the search suggestion so that I can view any Eastenders episodes",
+    "description": "",
+    "id": "as-a-user-of-bbc-website-i-want-to-be-able-to-search-for-eastenders-from-the-search-suggestion-so-that-i-can-view-any-eastenders-episodes",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Eastenders_Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Daily"
+      }
+    ]
+  }
+]
